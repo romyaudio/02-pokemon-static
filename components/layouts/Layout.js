@@ -10,7 +10,7 @@ export const Layout = ({children,title}) => {
     <>
     <Head>
         <title>{title || "Pokemon App"}</title>
-        <meta name="author" content="Romy Rodriguez"/>
+        <meta name="author" content="Romy-Rodriguez"/>
         <meta name="description" content={`Informacion sobre el pokemon ${title}`}/>
         <meta name="keywords" content={`${title},pokemon,pokedex`}/>
         <meta property="og:title" content={`Informacion Sobre ${title}`} />
